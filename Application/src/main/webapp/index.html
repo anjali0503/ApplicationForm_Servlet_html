@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Login</title>
+<style>
+div {
+	padding: 10px;
+	align-content: center;
+	margin: 100px;
+	margin-right: 500px;
+}
+</style>
+</head>
+<body>
+	<h1 align="center">Login Form</h1>
+	<hr>
+	<div>
+		<form action="AapplicationServlet" method="post">
+
+			First Name :<input type="text" name="firstName"><br> <br>
+			Last Name :<input type="text" name="lastName"><br> <br>
+			Gender :<input type="radio" id="male" name="gender" value="male">Male
+			<input type="radio" id="female" name="gender" value="female">Female
+			<br> <br> Qualification <select name="edu" id="edu">
+				<option value="SSC">SSC</option>
+				<option value="HSC">HSC</option>
+				<option value="Gradution">Gradution</option>
+			</select><br>
+			<br> Language : <input type="checkbox" name="lang" value="Hindi">
+			Hindi <input type="checkbox" name="lang" value="English">
+			English <input type="checkbox" name="lang" value="Marathi">Marathi
+			<input type="checkbox" name="lang">Other<br>
+			<br> <input type="submit" value="Submit">
+
+		</form>
+	</div>
+
+</body>
+</html>
