@@ -29,11 +29,11 @@ public class AapplicationServlet extends HttpServlet {
 
 		PrintWriter out = response.getWriter();
 		out.println("<h1> Welcome..! </h1>");
-		out.println("First Name :" + firstName);
+		out.println("First Name :" + firstName +"<br>");
 
-		out.println("Last Name :" + lastName);
-		out.println("Gender :" + gender);
-		out.println("Qualification : " + qualification);
+		out.println("Last Name :" + lastName+"<br>");
+		out.println("Gender :" + gender +"<br>");
+		out.println("Qualification : " + qualification +"<br>");
 		out.println("Languages :");
 		for (String string : langs) {
 			out.println(string);
